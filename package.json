@@ -1,0 +1,17 @@
+{
+  "name": "advent-of-code",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "bun cli.ts test",
+    "solve": "bun cli.ts solve",
+    "example": "bun cli.ts example",
+    "scaffold": "bun cli.ts scaffold"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
