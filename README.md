@@ -1,4 +1,4 @@
-# advent-of-code
+# Advent of Code
 
 To install dependencies:
 
@@ -6,10 +6,11 @@ To install dependencies:
 bun install
 ```
 
-To run:
+## Scripts
 
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.0.12. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+| script                      | description                                                                 |
+| --------------------------- | --------------------------------------------------------------------------- |
+| bun run test <day.part>     | tests the challenge expected result for the example against the example set |
+| bun run solve <day.part>    | solves the challenge with the actual input                                  |
+| bun run example <day.part>  | solves the challenge with the example input                                 |
+| bun run scaffold <day.part> | scaffolds a new directory with necessary files for a new challenge          |
